@@ -1,0 +1,146 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111; /* Fondo negro */
+    color: #f5f5f5; /* Texto gris claro */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222; /* Gris oscuro para el encabezado */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #e53935; /* Rojo vibrante para el título */
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333; /* Otro tono de gris oscuro */
+    padding: 15px 0;
+}
+
+nav a {
+    color: #f5f5f5;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #e53935; /* Cambia a rojo en hover */
+}
+
+article {
+    padding: 20px;
+    background-color: #1b1b1b; /* Fondo gris oscuro para artículos */
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+article h1, article h2 {
+    color: #e53935; /* Títulos en rojo */
+}
+
+article p {
+    color: #d3d3d3; /* Texto en gris claro */
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+/* Nueva clase para separar cada artista */
+.artista {
+    background-color: #222; /* Fondo gris oscuro para los recuadros de los artistas */
+    margin: 20px 0; /* Espaciado entre cada artista */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #444; /* Borde gris más claro para diferenciarlos */
+}
+
+.artista h2 {
+    color: #e53935; /* Títulos de los artistas en rojo */
+    font-size: 2rem;
+}
+
+.artista p {
+    color: #d3d3d3; /* Texto de los artistas en gris claro */
+}
+
+/* Estilos para los botones de Spotify */
+.spotify-button {
+    display: inline-block;
+    background-color: #1DB954; /* Color verde de Spotify */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.spotify-button:hover {
+    background-color: #1ed760; /* Cambio de color al pasar el cursor */
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer form input, footer form textarea {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    color: #f5f5f5;
+    border-radius: 5px;
+}
+
+footer form button {
+    background-color: #e53935;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: #d32f2f;
+}
+
+footer form input:focus, footer form textarea:focus {
+    outline: none;
+    border: 1px solid #e53935;
+}
